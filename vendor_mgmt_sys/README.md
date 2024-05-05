@@ -49,8 +49,6 @@ Follow these instructions to set up and run the Vendor Management System on your
 
 4. Access the application in your web browser at http://localhost:8000/.
 
-   ```bash
-   python manage.py runserver
 
 ### ENDPOINTS
 
