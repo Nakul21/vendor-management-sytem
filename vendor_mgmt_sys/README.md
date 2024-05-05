@@ -17,7 +17,7 @@ Follow these instructions to set up and run the Vendor Management System on your
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your_username/vendor-management-system.git
+   git clone https://github.com/Nakul21/vendor-management-sytem.git
 
 2. Navigate to the project directory::
 
@@ -29,24 +29,25 @@ Follow these instructions to set up and run the Vendor Management System on your
    ```bash
    pip install -r requirements.txt
 
-4. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your_username/vendor-management-system.git
 
 ### Running the Application
 
-1. Apply migrations to create the database schema:
+1. Make migrations to create the database schema:
 
    ```bash
-   python manage.py migrate
+   python manage.py makemigrations
 
-2. Start the Django development server:
+2. Apply migrations to create the database schema:
+
+   ```bash
+   python manage.py migrate  
+
+3. Start the Django development server:
 
    ```bash
    python manage.py runserver
 
-3. Access the application in your web browser at http://localhost:8000/.
+4. Access the application in your web browser at http://localhost:8000/.
 
    ```bash
    python manage.py runserver
