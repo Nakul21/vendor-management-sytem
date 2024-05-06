@@ -52,6 +52,8 @@ Follow these instructions to set up and run the Vendor Management System on your
 
 ### ENDPOINTS
 
+### NOTE: - All the endpoints other than vendor_profile/api/generate-token/ will require token for their execution 
+
 - **POST - vendor_profile/api/vendors/:** Create a new vendor.
 - **GET - vendor_profile/api/vendors/list:** List all vendors.
 - **GET - vendor_profile/api/fetch_vendor_info:** Fetch specific vendor info
